@@ -18,3 +18,9 @@ Thumbs.db
 # Ignora file di log
 *.log
 
+
+# Ignora la cartella .history
+.history/
+# Ignora le cartelle di build
+target/
+build/
