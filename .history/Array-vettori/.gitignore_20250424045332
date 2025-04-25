@@ -1,0 +1,17 @@
+# Ignora cartelle di build
+/target/
+
+# Ignora file .jar
+*.jar
+
+# Ignora file di configurazione di Maven
+/maven-archiver/
+/maven-status/
+
+# Ignora file di configurazione IDE (es. IntelliJ, Eclipse, VSCode)
+.idea/
+/.vscode/
+*.iml
+
+# Ignora file di configurazione specifici
+nbactions.xml
