@@ -1,17 +1,19 @@
 # Ignora cartelle di build
 /target/
+/build/
 
-# Ignora file .jar
-*.jar
+# Ignora file di configurazione IDE (NetBeans, IntelliJ, Eclipse, VSCode)
+.idea/
+.vscode/
+nbproject/
 
 # Ignora file di configurazione di Maven
-/maven-archiver/
-/maven-status/
-
-# Ignora file di configurazione IDE (es. IntelliJ, Eclipse, VSCode)
-.idea/
-/.vscode/
 *.iml
-
-# Ignora file di configurazione specifici
 nbactions.xml
+
+# Ignora file temporanei di sistema
+.DS_Store
+Thumbs.db
+
+# Ignora file di log
+*.log
